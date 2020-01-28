@@ -6,7 +6,7 @@ Added all required variables to path
 
 Installed es4x-pm like shown in here: https://github.com/reactiverse/es4x#usage
 
-Tried to run index.js but alias does not work, throws error:
+Tried to run index.js with `es4x ./index.js` but alias does not work, throws error:
 
 ```
 ModuleError: Module "stream" was not found
@@ -30,3 +30,5 @@ ModuleError: Module "stream" was not found
         at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
         at java.base/java.lang.Thread.run(Thread.java:834)
 ```
+
+Most likely I'm doing something wrong that I can't figure out..
